@@ -66,6 +66,22 @@ button {
   font-size: 16px;
 }
 
+main {
+  background-color: #ffffff;
+  padding: 32px 72px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.img-placeholder {
+  width: 355px;
+  height: 270px;
+  background-color: gray;
+  border-radius: 8px;
+}
+
 #hero div {
   border: 1px solid #002244;
   padding: 0 20px 20px;

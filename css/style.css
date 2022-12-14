@@ -46,3 +46,39 @@ nav > div:first-child {
 nav > div:last-child {
   gap: 40px
 }
+
+section {
+  height: 560px;
+  background-color: silver;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+}
+
+button {
+  background-color: #002244;
+  padding: 10px 16px;
+  border: 0;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+#hero div {
+  border: 1px solid #002244;
+  padding: 0 20px 20px;
+  background-color: rgba(0, 34, 68, 0.3);
+}
+
+#hero p {
+  margin: 0 0 24px;
+}
+
+#hero h3 {
+  font-size: 30px;
+  margin: 10px 0;
+}
+
+
